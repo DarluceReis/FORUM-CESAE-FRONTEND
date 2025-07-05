@@ -1,0 +1,121 @@
+{
+  "duvidas": [
+    {
+      "id": "1",
+      "autor": "Darluce",
+      "titulo": "Como listar arquivos no Linux?",
+      "texto": "Qual o comando pra listar todos os arquivos de uma pasta no Linux?",
+      "respostas": [
+        {
+          "autor": "Pedro",
+          "texto": "Use o comando `ls` para listar os arquivos."
+        },
+        {
+          "autor": "Bruno",
+          "texto": "Também dá pra usar `ls -la` pra ver os arquivos ocultos."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "autor": "Patrick",
+      "titulo": "O que é um endereço IP?",
+      "texto": "Alguém pode me explicar o que é um endereço IP em redes?",
+      "respostas": [
+        {
+          "autor": "Nicolau",
+          "texto": "IP é o endereço que identifica um dispositivo na rede. Pode ser IPv4 ou IPv6."
+        },
+        {
+          "autor": "Raiane",
+          "texto": "Pense como o 'CPF' do seu dispositivo na internet."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "autor": "Ruben",
+      "titulo": "Como criar uma função em Python?",
+      "texto": "Alguém pode mostrar como criar uma função simples?",
+      "respostas": [
+        {
+          "autor": "Ruben",
+          "texto": "Use `def nome_da_funcao():` para criar uma função. Por exemplo: `def ola(): print('Olá')`"
+        },
+        {
+          "autor": "Cristiano",
+          "texto": "Eu aprendi com um vídeo do YouTube, é bem simples depois que você pega o jeito."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "autor": "Raiane",
+      "titulo": "Como clonar um repositório no Git?",
+      "texto": "Não entendi como clonar um projeto do GitHub para o meu PC.",
+      "respostas": [
+        {
+          "autor": "Augusto",
+          "texto": "Use o comando `git clone URL-do-repositório`."
+        },
+        {
+          "autor": "Maria",
+          "texto": "Também precisa ter o Git instalado antes!"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "autor": "Deborah",
+      "titulo": "Para que serve o Azure?",
+      "texto": "Estou confusa com o Azure, é tipo um sistema operacional na nuvem?",
+      "respostas": [
+        {
+          "autor": "Eduardo",
+          "texto": "O Azure é a plataforma de nuvem da Microsoft. Serve para hospedar aplicações, VMs, bancos de dados e mais."
+        },
+        {
+          "autor": "Benilde",
+          "texto": "Tem curso grátis de Azure no site da Microsoft!"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "autor": "Claudia",
+      "titulo": "Qual a diferença entre switch e roteador?",
+      "texto": "Ainda não entendi quando usar um e quando usar o outro.",
+      "respostas": [
+        {
+          "autor": "Nicolau",
+          "texto": "Switch conecta dispositivos dentro de uma rede. Roteador conecta redes diferentes, como sua rede local com a internet."
+        },
+        {
+          "autor": "Carlos",
+          "texto": "O roteador geralmente tem Wi-Fi, o switch não."
+        }
+      ]
+    },
+    {
+      "id": "1d550e40-4f94-416f-8f9e-d5dc3752e488",
+      "autor": "Darluce",
+      "titulo": "n sei fazer x coisa",
+      "texto": "AAAAA",
+      "respostas": []
+    },
+    {
+      "id": "97fd1762-a1f9-4217-8021-cf545309fcc4",
+      "autor": "AA",
+      "titulo": "AA",
+      "texto": "AAAA",
+      "respostas": []
+    },
+    {
+      "id": "47d01869-df5a-4de7-88c0-cc9cfa2a4c0b",
+      "autor": "AAsss",
+      "titulo": "AAssss",
+      "texto": "AAAAsss",
+      "respostas": []
+    }
+  ]
+}

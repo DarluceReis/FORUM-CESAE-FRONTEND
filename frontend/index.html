@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fórum CESAE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- LOGO CESAE -->
+    <div class="logo-cesae">
+      <img src="imgs/cesae.png" alt="Logo CESAE" />
+    </div>
+
+    <h1>✨ Fórum CESAE ✨</h1>
+    <h2>Juntos aprendemos mais! Tire suas dúvidas com colegas e professores.</h2>
+
+    <div class="menu">
+      <button onclick="carregarDuvidas()">Ver Dúvidas</button>
+      <button onclick="mostrarFormDuvida()">Nova Dúvida</button>
+      <button onclick="mostrarFormUsuario()">Novo Usuário</button>
+      <button onclick="mostrarEstatisticas()">Estatísticas</button>
+      <input type="text" id="buscarInput" placeholder="Buscar..." oninput="buscar()" />
+    </div>
+
+    <!-- Formulário de nova dúvida -->
+    <div id="formNovaDuvida" style="display:none; margin-top:1em;">
+      <h2>Postar nova dúvida:</h2>
+      <input id="autor" placeholder="Seu nome" /><br />
+      <input id="titulo" placeholder="Título da dúvida" /><br />
+      <textarea id="texto" placeholder="Descreva sua dúvida..."></textarea><br />
+      <button onclick="postarDuvida()">Enviar</button>
+    </div>
+
+    <!-- Formulário de novo usuário -->
+    <div id="formNovoUsuario" style="display:none; margin-top:1em;">
+      <h2>Adicionar novo usuário:</h2>
+      <input id="usuario_nome" placeholder="Nome do usuário" /><br />
+      <button onclick="postarUsuario()">Enviar</button>
+    </div>
+
+    <!-- Seção de estatísticas -->
+    <div id="estatisticas" style="display:none; margin-top:2em;"></div>
+
+    <!-- Listagens -->
+    <div id="duvidas" style="margin-top:2em;"></div>
+    <div id="usuarios" style="margin-top:2em;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
